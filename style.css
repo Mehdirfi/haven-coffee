@@ -1,0 +1,33 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: rgb(133, 58, 28);
+    color: white;
+}
+
+header
+{
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1
+{
+    margin-bottom: 30px;
+    font-size: 50px;
+}
+
+header p
+{
+    font-size: 18px;
+    opacity: 0.8;
+}
