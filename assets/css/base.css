@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+       url('../fonts/Vazirmatn[wght].woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root
+{
+    --color-primary: #303A2C;
+    --color-secondary: #F9FAFB;  
+    --font-primary: Vazirmatn, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*, *::before, *::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: var(--font-primary);
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    direction: rtl;
+    text-align: right;
+    min-height: 100vh;
+}
+
