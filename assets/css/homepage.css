@@ -1,0 +1,118 @@
+/* all */
+h1
+{
+    font-size: 2.5rem;
+}
+h2
+{
+    font-size: 2rem;
+}
+p
+{
+    font-size: 1.2rem;
+}
+
+/* section class */
+.section 
+{
+    min-height: 100vh;
+    padding: 4rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* header */
+header
+{
+    background-color: var(--color-secondary);
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+header div
+{
+    display: flex;
+    gap: 3.5rem;
+}
+header ul
+{
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* hero */
+.hero
+{
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    display: flex;
+}
+
+/* haven-gallery */
+.haven-gallery
+{
+    background-color: var(--color-warm);
+    color: var(--color-text-dark);
+}
+.haven-gallery .haven-gallery-description
+{
+    text-align: center;
+}
+.haven-gallery .haven-gallery-images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.haven-gallery-image
+{
+    flex: 1 1 200px;
+    max-width: 280px;
+}
+
+/* haven-comments */
+.haven-comments
+{
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+}
+.haven-comments .haven-comments-description
+{
+    text-align: center;
+}
+
+/* footer */
+footer
+{
+    background-color: var(--color-dark);
+    color: var(--color-text-light);
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+.footer-main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.haven-socials
+{
+    display: flex;
+    gap: 1.25rem;
+}
+.footer-main-logo
+{
+    margin-left: 3rem;
+}
+.footer-haven-logo
+{
+    text-align: center;
+}
+.footer-detail
+{
+    text-align: center;
+    margin-top: 1.25rem;
+}

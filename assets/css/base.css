@@ -9,8 +9,14 @@
 
 :root
 {
+    --color-body: #F5F0EB;
     --color-primary: #303A2C;
-    --color-secondary: #F9FAFB;  
+    --color-secondary: #F9FAFB;
+    --color-accent: #D4A373;  
+    --color-text-dark: #3E2C1B;
+    --color-warm: #F5E6D3;  
+    --color-dark: #1C2A1A;
+    --color-text-light: #FFFFFF;   
     --font-primary: Vazirmatn, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -21,13 +27,28 @@
     box-sizing: border-box;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 body
 {
     font-family: var(--font-primary);
-    background-color: var(--color-secondary);
+    background-color: var(--color-body);
     color: var(--color-primary);
     direction: rtl;
     text-align: right;
     min-height: 100vh;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
 }
 
