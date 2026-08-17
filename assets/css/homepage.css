@@ -16,16 +16,26 @@ header
     padding: 1.25rem;
     font-size: 1.25rem;
     font-weight: bold;
+    display: flex;
+    gap: 2.5rem;
 }
-header div
+header span
 {
     display: flex;
-    gap: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
 }
 header ul
 {
     display: flex;
-    gap: 1.5rem;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+header a
+{
+    color: var(--color-primary);
+    font-size: 1.25rem;
 }
 
 /* hero */
@@ -132,7 +142,7 @@ footer
 }
 .haven-socials
 {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     display: flex;
     gap: 0.75rem;
 }
@@ -149,6 +159,10 @@ footer
     width: 50px;
     height: 50px;
     border-radius: 10%;
+}
+.footer-main-address
+{
+    margin-top: 1.2rem;
 }
 .footer-detail
 {

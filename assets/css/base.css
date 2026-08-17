@@ -7,6 +7,15 @@
   font-display: swap;
 }
 
+@font-face {
+    font-family: 'Parastoo';
+    src: url('../fonts/Parastoo-VariableFont_wght.ttf') format('ttf supports variations'),
+    url('../fonts/Parastoo-VariableFont_wght.ttf') format('ttf-variations');
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root
 {
     --color-body: #F5F0EB;
@@ -17,6 +26,7 @@
     --color-dark: #1C2A1A;
     --color-text-light: #FFFFFF;   
     --font-primary: Vazirmatn, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-logo: 'Parastoo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 *, *::before, *::after
@@ -66,3 +76,12 @@ p
     font-size: 1.2rem;
 }
 
+.haven-logo
+{
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: var(--color-primary);
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
