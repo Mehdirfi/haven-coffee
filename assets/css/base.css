@@ -12,7 +12,6 @@
     --color-body: #F5F0EB;
     --color-primary: #303A2C;
     --color-secondary: #F9FAFB;
-    --color-accent: #D4A373;  
     --color-text-dark: #3E2C1B;
     --color-warm: #F5E6D3;  
     --color-dark: #1C2A1A;
@@ -50,5 +49,20 @@ a
 ul
 {
     list-style: none;
+}
+
+h1
+{
+    font-size: 2.5rem;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+p
+{
+    font-size: 1.2rem;
 }
 
