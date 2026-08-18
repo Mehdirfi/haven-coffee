@@ -34,8 +34,16 @@ header ul
 }
 header a
 {
-    color: var(--color-primary);
+    color: var(--color-link);
     font-size: 1.25rem;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.25rem;
+}
+header a:hover 
+{
+    color: var(--color-accent);
+    border-bottom-color: var(--color-accent);
 }
 
 /* hero */
@@ -80,7 +88,7 @@ header a
 {
     text-align: center;
     margin-top: 1.25rem;
-    color: darkred;
+    color: var(--color-caption);
     font-weight: bold;
     font-size: 1.25rem;
 }
@@ -108,7 +116,6 @@ header a
     height: 600px;
     border-radius: 50px;
     padding: 1rem;
-
     display: flex;
     flex-direction: column;
     align-items: center;

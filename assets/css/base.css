@@ -25,6 +25,8 @@
     --color-warm: #F5E6D3;  
     --color-dark: #1C2A1A;
     --color-text-light: #FFFFFF;   
+    --color-link: #2C3A2A;       
+    --color-caption: #6B4F3A;   
     --font-primary: Vazirmatn, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-logo: 'Parastoo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
