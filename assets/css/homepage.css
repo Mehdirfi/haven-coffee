@@ -10,7 +10,7 @@
 }
 
 /* header */
-header
+body > header
 {
     background-color: var(--color-secondary);
     padding: 1.25rem;
@@ -19,20 +19,17 @@ header
     display: flex;
     gap: 2.5rem;
 }
-header span
+.header-haven-logo
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 1.5rem;
 }
-header ul
+.menu-items
 {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
 }
-header a
+.menu-items a
 {
     color: var(--color-link);
     font-size: 1.25rem;
@@ -40,7 +37,7 @@ header a
     border-bottom: 2px solid transparent;
     padding-bottom: 0.25rem;
 }
-header a:hover 
+.menu-items a:hover 
 {
     color: var(--color-accent);
     border-bottom-color: var(--color-accent);
@@ -60,15 +57,8 @@ header a:hover
     background-color: var(--color-warm);
     color: var(--color-text-dark);
 }
-.haven-gallery .haven-gallery-description
+.haven-gallery-images
 {
-    text-align: center;
-}
-.haven-gallery .haven-gallery-images
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 6rem;
     flex-wrap: wrap;
     margin-top: 4rem;
@@ -99,7 +89,7 @@ header a:hover
     background-color: var(--color-secondary);
     color: var(--color-text-dark);
 }
-.haven-comments .haven-comments-description
+.haven-comments-description
 {
     text-align: center;
     margin-bottom: 3.5rem;
@@ -127,7 +117,7 @@ header a:hover
     border-radius: 50%;
     margin: 1rem 0;
 }
-.comment p
+.comment-text
 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
