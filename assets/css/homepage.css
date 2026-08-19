@@ -48,6 +48,7 @@ body > header
 {
     background-color: var(--color-primary);
     color: var(--color-text-light);
+    gap: 0.5rem;
 }
 .menu-btn
 {
@@ -88,8 +89,11 @@ body > header
 }
 .gallery-figure-img
 {
-    width: 400px;
-    height: 400px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    max-height: 400px;
+    aspect-ratio: 1/1;
     border-radius: 20%;
 }
 .haven-gallery-image-caption
@@ -120,8 +124,10 @@ body > header
 .comment
 {
     background-color: white;
-    width: 400px;
-    height: 600px;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    min-height: 550px;
     border-radius: 50px;
     padding: 1rem;
     display: flex;
@@ -149,6 +155,16 @@ footer
     color: var(--color-text-light);
     font-size: 1.5rem;
     padding: 3rem;
+}
+footer a
+{
+    color: var(--color-text-light);
+    transition: opacity 0.3s;
+}
+footer a:hover 
+{
+    opacity: 0.8;
+    text-decoration: underline;
 }
 .footer-main
 {
