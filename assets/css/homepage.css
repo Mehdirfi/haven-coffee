@@ -39,8 +39,8 @@ body > header
 }
 .menu-items a:hover 
 {
-    color: var(--color-accent);
-    border-bottom-color: var(--color-accent);
+    color: #B8860B;
+    border-bottom-color: #B8860B;
 }
 
 /* hero */
@@ -113,7 +113,6 @@ body > header
 }
 .haven-comments-description
 {
-    text-align: center;
     margin-bottom: 3.5rem;
 }
 .haven-comments-comment
@@ -145,7 +144,9 @@ body > header
 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    text-align: center;
+    text-align: center; 
+    color: var(--color-text-dark);
+    line-height: 1.8;
 }
 
 /* footer */
@@ -197,6 +198,5 @@ footer a:hover
 }
 .footer-detail
 {
-    text-align: center;
     margin-top: 1.25rem;
 }
