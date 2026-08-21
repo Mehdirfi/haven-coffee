@@ -1,0 +1,301 @@
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('../fonts/Vazirmatn[wght].woff2') format('woff2 supports variations'),
+       url('../fonts/Vazirmatn[wght].woff2') format('woff2-variations');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+    font-family: 'Parastoo';
+    src: url('../fonts/Parastoo-VariableFont_wght.ttf') format('ttf supports variations'),
+    url('../fonts/Parastoo-VariableFont_wght.ttf') format('ttf-variations');
+    font-weight: 400 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root
+{
+    --color-body: #F5F0EB;
+    --color-primary: #303A2C;
+    --color-secondary: #F9FAFB;
+    --color-text-dark: #3E2C1B;
+    --color-warm: #F5E6D3;  
+    --color-dark: #1C2A1A;
+    --color-text-light: #FFFFFF;   
+    --color-link: #5C3D2E;       
+    --color-caption: #6B4F3A;   
+    --color-accent: #D4A46A;
+    --font-primary: Vazirmatn, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-logo: 'Parastoo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*, *::before, *::after
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+body
+{
+    font-family: var(--font-primary);
+    background-color: var(--color-body);
+    color: var(--color-primary);
+    direction: rtl;
+    text-align: right;
+    min-height: 100vh;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul
+{
+    list-style: none;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+h2
+{
+    font-size: 2.2rem;
+}
+
+h3 
+{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p
+{
+    font-size: 1.1rem;
+}
+
+.haven-logo
+{
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 2.8rem;
+    color: var(--color-primary);
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+
+/* utility classes */
+
+/* flex */
+.flex-center-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-center-col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* text */
+.text-center
+{
+    text-align: center;
+}
+
+/* header */
+body > header
+{
+    background-color: var(--color-secondary);
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    gap: 2.5rem;
+}
+.header-haven-logo
+{
+    margin-bottom: 1.5rem;
+}
+.menu-toggle 
+{
+    display: none;
+}
+.menu-icon 
+{
+    display: none; 
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--color-link);
+    user-select: none;
+}
+.menu-items
+{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.menu-items a
+{
+    color: var(--color-link);
+    font-size: 1.25rem;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 0.25rem;
+}
+.menu-items a:hover 
+{
+    color: #B8860B;
+    border-bottom-color: #B8860B;
+}
+
+/* footer */
+footer
+{
+    background-color: var(--color-dark);
+    color: var(--color-text-light);
+    font-size: 1.5rem;
+    padding: 3rem;
+}
+footer a
+{
+    color: var(--color-text-light);
+    transition: opacity 0.3s;
+}
+footer a:hover 
+{
+    opacity: 0.8;
+    text-decoration: underline;
+}
+.footer-main
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.haven-socials
+{
+    margin-top: 1.5rem;
+    display: flex;
+    gap: 0.75rem;
+}
+.footer-main-logo
+{
+    margin-left: 3rem;
+}
+.footer-haven-logo
+{
+    text-align: center;
+}
+.social-logo
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 10%;
+}
+.footer-main-address
+{
+    margin-top: 1.2rem;
+}
+.footer-detail
+{
+    margin-top: 1.25rem;
+}
+
+/* responsive */
+@media (max-width: 1024px)
+{
+    /* header */
+    .menu-icon
+    {
+        display: block;
+    }
+    nav
+    {
+        display: none;
+        width: 100%;
+    }
+    .menu-toggle:checked ~ nav
+    {
+        display: block;
+    }
+    .menu-items
+    {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem;
+        padding: 1rem;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .menu-items a 
+    {
+        font-size: 1.1rem;
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    }
+    body > header 
+    {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+    }
+    .header-haven-logo 
+    {
+        margin-bottom: 0.8rem;
+        font-size: 2rem;
+    }
+
+    /* footer */
+    footer 
+    {
+        padding: 2rem 1rem;
+    }
+    .footer-main 
+    {
+        flex-direction: column; 
+        align-items: center; 
+        gap: 2rem;
+    }
+    .footer-main-logo 
+    {
+        margin-left: 0; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-haven-logo
+    {
+        font-size: 2rem;
+    }
+    .haven-socials 
+    {
+        margin-top: 1rem;
+        gap: 1rem;
+    }
+    .footer-main-address 
+    {
+
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .footer-detail 
+    {
+        margin-top: 1.5rem;
+    }
+}
