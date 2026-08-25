@@ -1,0 +1,57 @@
+/* menu */
+.haven-menu-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 4rem;
+    gap: 4rem;
+}
+.hot-drink-flex
+{
+    display: flex;
+    gap: 50px;
+}
+.cold-drink-flex
+{
+    display: flex;
+    gap: 50px;
+}
+.food-flex
+{
+    display: flex;
+    gap: 2rem;
+}
+.haven-menu
+{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.margin-bottom
+{
+    margin-bottom: 1rem;
+}
+
+/* best drinks */
+.best-drinks
+{
+    padding: 2rem;
+    background-color: red;
+    color: var(--color-text-light);
+}
+
+/* best foods */
+.best-foods
+{
+    padding: 2rem;
+    background-color: green;
+}
+
+/* invitation */
+.invitation
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
