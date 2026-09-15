@@ -256,71 +256,90 @@
 
         <section class="best-drinks">
             <h2 class="text-center">بهترین نوشیدنی های کافه هیون</h2>
-            <div class="best-drinks-row">
+            <article class="best-drinks-row">
                 <div class="video-col">
-                    <video class="tea-video" src="assets/videos/Tea.mp4" autoplay muted loop>
+                    <video class="tea-video" src="assets/videos/Tea.mp4" autoplay muted loop
+                        aria-label="فیلم کوتاه از چای کافه هیون" playsinline preload="metadata">
                         فیلمی از چای سیاه محبوب کافه هیون
                     </video>
                 </div>
                 <div class="image-col">
                     <figure class="flex-center-row">
-                        <img src="assets/images/tea2.jpg" class="tea-img" alt="تصویر چای آتیشی کافه هیون">
-                        <img src="assets/images/tea1.jpg" class="tea-img" alt="تصویر چای آتیشی کافه هیون">
+                        <img src="assets/images/tea2.jpg" class="tea-img" alt="تصویر چای آتیشی کافه هیون" loading="lazy"
+                            decoding="async">
+                        <img src="assets/images/tea1.jpg" class="tea-img" alt="تصویر چای آتیشی کافه هیون" loading="lazy"
+                            decoding="async">
                     </figure>
                     <p>چای محبوب و آتیشی کافه هیون</p>
                 </div>
-            </div>
-            <div class="best-drinks-item">
+            </article>
+            <article class="best-drinks-item">
                 <figure>
-                    <img src="assets/images/coffee1.jpg" alt="تصویر قهوه امریکانو کافه هیون">
-                    <img src="assets/images/coffee2.jpg" alt="تصویر قهوه امریکانو کافه هیون">
-                    <img src="assets/images/coffee3.jpg" alt="تصویر قهوه امریکانو کافه هیون">
+                    <img src="assets/images/coffee1.jpg" alt="تصویر 1 قهوه امریکانو کافه هیون" loading="lazy"
+                        decoding="async">
+                    <img src="assets/images/coffee2.jpg" alt="تصویر 2 قهوه امریکانو کافه هیون" loading="lazy"
+                        decoding="async">
+                    <img src="assets/images/coffee3.jpg" alt="تصویر 3 قهوه امریکانو کافه هیون" loading="lazy"
+                        decoding="async">
                 </figure>
                 <p>امریکانو، قهوه محبوب کافه هیون</p>
-            </div>
-            <div class="best-drinks-item cold-drinks-item">
+            </article>
+            <article class="best-drinks-item cold-drinks-item">
                 <figure>
-                    <img src="assets/images/shake1.jpg" alt="تصویر قهوه امریکانو کافه هیون">
-                    <img src="assets/images/shake2.jpg" alt="تصویر قهوه امریکانو کافه هیون">
-                    <img src="assets/images/shake3.jpg" alt="تصویر قهوه امریکانو کافه هیون">
+                    <img src="assets/images/shake1.jpg" alt="تصویر 1 شیک های کافه هیون" loading="lazy" decoding="async">
+                    <img src="assets/images/shake2.jpg" alt="تصویر 2 شیک های کافه هیون" loading="lazy" decoding="async">
+                    <img src="assets/images/shake3.jpg" alt="تصویر 3 شیک های کافه هیون" loading="lazy" decoding="async">
                 </figure>
                 <p>شیک های محبوب و خوش طعم کافه هیون</p>
-            </div>
-
+            </article>
         </section>
 
         <section class="best-foods">
             <h2 class="text-center">بهترین غذاهای کافه هیون</h2>
-            <div class="best-foods-item">
-                <div class="best-foods-row">
-                    <img src="assets/images/pizza1.png" alt="عکس پیتزای مارگریتای کافه هیون">
+            <article class="best-foods-item">
+                <figure class="best-foods-row">
+                    <img src="assets/images/pizza1.png" alt="عکس 1 پیتزای مارگریتای کافه هیون" loading="lazy"
+                        decoding="async">
                     <div>
-                        <img src="assets/images/pizza2.jpg" alt="عکس پیتزای مارگریتای کافه هیون">
+                        <img src="assets/images/pizza2.jpg" alt="عکس 2 پیتزای مارگریتای کافه هیون" loading="lazy"
+                            decoding="async">
                     </div>
-                </div>
+                </figure>
                 <p>پیتزای مارگریتا، غذای محبوب کافه هیون</p>
-            </div>
+            </article>
             <div class="more-food">
-                <div class="more-food-item">
-                    <figure>
-                        <img src="assets/images/chips.jpg" alt="عکس سیب زمینی سرخ کرده ی کافه هیون">
-                        <figcaption class="text-center">سیب زمینی سرخ شده مخصوص</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="assets/images/burger.jpg" alt="عکس برگر کافه هیون">
-                        <figcaption class="text-center">برگر مخصوص</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="assets/images/pasta.jpg" alt="عکس پاستای آلفردوی کافه هیون">
-                        <figcaption class="text-center">پاستا آلفردو</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="assets/images/egg.jpg" alt="عکس نیمروی آتیشی کافه هیون">
-                        <figcaption class="text-center">نیمروی آتیشی</figcaption>
-                    </figure>
-                </div>
-            </div>
+                <ul class="more-food-item">
+                    <li>
+                        <figure>
+                            <img src="assets/images/chips.jpg" alt="عکس سیب زمینی سرخ کرده ی کافه هیون" loading="lazy"
+                                decoding="async">
+                            <figcaption class="text-center">سیب زمینی سرخ شده مخصوص</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assets/images/burger.jpg" alt="عکس برگر کافه هیون" loading="lazy"
+                                decoding="async">
+                            <figcaption class="text-center">برگر مخصوص</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assets/images/pasta.jpg" alt="عکس پاستای آلفردوی کافه هیون" loading="lazy"
+                                decoding="async">
+                            <figcaption class="text-center">پاستا آلفردو</figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="assets/images/egg.jpg" alt="عکس نیمروی آتیشی کافه هیون" loading="lazy"
+                                decoding="async">
+                            <figcaption class="text-center">نیمروی آتیشی</figcaption>
+                        </figure>
+                    </li>
 
+                </ul>
+            </div>
         </section>
 
         <section class="invitation">
