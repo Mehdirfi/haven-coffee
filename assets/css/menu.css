@@ -36,15 +36,149 @@
 .best-drinks
 {
     padding: 2rem;
-    background-color: red;
+    background-color: var(--color-dark);
     color: var(--color-text-light);
+}
+.best-drinks .tea-img
+{
+    width: 100%;
+    min-width: 400px;
+    height: 500px;
+    margin-top: 3rem;
+}
+.best-drinks-row
+{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.best-drinks figure
+{
+    gap: 4rem;
+}
+.image-col p
+{
+    text-align: center;
+    margin-top: 2rem;
+    color: var(--color-text-dark);
+    font-size: 1.2rem
+}
+.image-col
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.best-drinks-item
+{
+    background-color: black;
+    padding: 2rem;
+    margin-top: 3rem;
+}
+.cold-drinks-item
+{
+    background-color: rgb(51, 22, 51);
+}
+.best-drinks-item figure
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.best-drinks-item p
+{
+    margin-top: 2rem;
+    text-align: center;
+}
+.best-drinks-item img
+{
+    width: 400px;
+    height: 400px;
+}
+.cold-drinks-item img
+{
+    width: 400px;
+    height: 600px;
+}
+
+/* videos */
+video
+{
+    margin-top: 3rem;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 0;
+}
+.video-col
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* best foods */
 .best-foods
 {
     padding: 2rem;
-    background-color: green;
+    background-color: rgb(6, 70, 6);
+    color: var(--color-text-light);
+}
+.best-foods-item
+{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.best-foods-item p
+{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.best-foods-row
+{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    height:  auto;
+    padding: 1rem;
+}
+.best-foods-row > img
+{
+    width: 900px;
+    height: 500px;
+}
+.best-foods-row div img
+{
+    width: 450px;
+    height: 500px;
+}
+.more-food-item
+{
+    margin-top: 2rem;
+    background-color: white;
+    color: var(--color-dark);
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+}
+.more-food-item figure
+{
+    display: flex;
+    flex-direction: column;
+}
+.more-food-item figure img
+{
+    width: 340px;
+    height: 340px;
+}
+.more-food-item figure figcaption
+{
+    margin-top: 1rem;
 }
 
 /* invitation */
@@ -54,4 +188,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 500px;
 }
+
