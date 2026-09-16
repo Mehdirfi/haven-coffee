@@ -28,6 +28,10 @@
     --color-link: #5C3D2E;       
     --color-caption: #6B4F3A;   
     --color-accent: #D4A46A;
+    --color-purple-dark: #331633;
+    --color-green-dark: #064606;
+    --color-black: #000000;
+    --color-white: #ffffff;
     --font-primary: Vazirmatn, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-logo: 'Parastoo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -96,7 +100,6 @@ p
 }
 
 /* utility classes */
-
 /* flex */
 .flex-center-row
 {
@@ -116,6 +119,12 @@ p
 .text-center
 {
     text-align: center;
+}
+
+/* spacing */
+.margin-bottom
+{
+    margin-bottom: 1rem;
 }
 
 /* header */
