@@ -185,3 +185,259 @@ video
     height: 31.25rem;
 }
 
+
+/* responsive */
+@media (max-width: 1024px)
+{
+    .haven-menu-items
+    {
+        gap: 2rem;
+        margin-top: 2rem;
+    }
+    .menu-col
+    {
+        flex: 0 0 calc(50% - 1rem);
+    }
+    .hot-drink-flex,
+    .cold-drink-flex,
+    .food-flex
+    {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .best-drinks
+    {
+        padding: 1.5rem;
+    }
+    .best-drinks-row
+    {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .best-drinks figure
+    {
+        gap: 1rem;
+    }
+    .best-drinks-item
+    {
+        padding: 1.5rem;
+    }
+    .best-drinks-item figure,
+    .image-col figure
+    {
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .best-drinks-item img,
+    .cold-drinks-item img,
+    .best-drinks .tea-img
+    {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+    }
+    video
+    {
+        max-width: 100%;
+    }
+    .best-foods
+    {
+        padding: 1.5rem;
+    }
+    .best-foods-row
+    {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    .best-foods-row > img,
+    .best-foods-row div img
+    {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .best-foods-row div
+    {
+        width: 100%;
+    }
+    .more-food-item
+    {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .more-food-item figure
+    {
+        flex: 1 1 15rem;
+        max-width: 21.25rem;
+    }
+    .more-food-item figure img
+    {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .haven-menu
+    {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .haven-menu > p
+    {
+        text-align: center;
+        max-width: 90%;
+    }
+    .haven-menu-items
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        margin-top: 1.5rem;
+    }
+    .menu-col
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .menu-col h2,
+    .menu-col h3,
+    .menu-sub h3
+    {
+        text-align: center;
+    }
+    .menu-category li
+    {
+        text-align: center;
+    }
+    .best-drinks,
+    .best-foods
+    {
+        padding: 1rem;
+    }
+    .best-drinks-item,
+    .cold-drinks-item
+    {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .best-drinks-item figure,
+    .image-col figure
+    {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .best-drinks-item img,
+    .cold-drinks-item img,
+    .best-drinks .tea-img
+    {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        height: auto;
+    }
+    .best-drinks-item p,
+    .image-col p
+    {
+        text-align: center;
+        margin-top: 1rem;
+    }
+    video
+    {
+        max-width: 100%;
+    }
+    .best-foods-row
+    {
+        padding: 0.5rem;
+    }
+    .best-foods-item
+    {
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .best-foods-item p
+    {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .more-food
+    {
+        padding: 0;
+    }
+    .more-food-item
+    {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem 0.5rem;
+    }
+    .more-food-item figure
+    {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .more-food-item figure img
+    {
+        max-width: 100%;
+    }
+    .more-food-item figure figcaption
+    {
+        text-align: center;
+    }
+    .haven-menu h1
+    {
+        font-size: 2rem;
+    }
+    .haven-menu h2
+    {
+        font-size: 1.6rem;
+    }
+    .menu-sub h3
+    {
+        font-size: 1.2rem;
+    }
+    .best-drinks > h2,
+    .best-foods > h2
+    {
+        font-size: 1.4rem;
+    }
+    .best-drinks-row
+    {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--color-white);
+        padding: 1rem;
+        border-radius: 0;
+        gap: 0.1rem;
+        margin-top: 1.5rem;
+    }
+    .image-col
+    {
+        background-color: transparent;
+        padding: 0;
+    }
+    .best-drinks .tea-img
+    {
+        max-width: 18rem;
+        margin-top: 0.5rem;
+    }
+    .image-col p
+    {
+        color: var(--color-text-dark);
+        margin-top: 0.5rem;
+    }
+    .invitation
+    {
+        height: auto;
+        min-height: 25rem;
+        padding: 7rem 1rem;
+    }
+}
+
+
