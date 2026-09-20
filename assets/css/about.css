@@ -1,0 +1,18 @@
+/* about */
+.about-haven
+{
+    background-color: #4C5648;
+    color: var(--color-white);
+    height: 300px;
+}
+.story-haven
+{
+    background-color: #97887A;
+    color: var(--color-white);
+    height: 600px;
+}
+.digits
+{
+    background-color: var(--color-white);
+    height: 300px;
+}
