@@ -1,18 +1,124 @@
 /* about */
+.about-haven p
+{
+    margin-top: 1rem;
+}
 .about-haven
 {
     background-color: #4C5648;
     color: var(--color-white);
     height: 300px;
+    padding: 2rem;
 }
+
+/* story */
 .story-haven
 {
     background-color: #97887A;
     color: var(--color-white);
-    height: 600px;
+    height: auto;
+    padding: 2rem;
 }
+.story-1
+{
+    margin-top: 2rem;
+}
+.story-caption-1
+{
+    line-height: 2.5rem;
+    margin-left: 2rem;
+}
+.story-1-1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.story-img-1 img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 10%;
+    margin-top: 1.2rem;
+}
+.story-img-1 > img
+{
+    margin-left: 2.5rem;
+}
+.story-img-caption-1, .story-img-caption-2
+{
+    text-align: center;
+    margin-top: 1rem;
+}
+.story-1-2
+{
+    margin-top: 2rem;
+}
+.story-caption-2
+{
+    line-height: 2.5rem;
+    text-align: center;
+}
+.story-img-2 img
+{
+    margin-left: 3.5rem;
+    margin-top: 2rem;
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+}
+.story-caption-3
+{
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+
+/* digits and invitation */
 .digits
 {
+    background-color: #51c6c6c3;
+    height: auto;
+    padding: 2rem;
+    
+}
+.digits div
+{
+    margin-top: 2rem;
     background-color: var(--color-white);
-    height: 300px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-black);
+}
+.digit-number
+{
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digit-text
+{
+    background-color: var(--color-primary);
+    padding: 0.5rem;
+    color: var(--color-secondary);
+}
+.digits article
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.invite
+{
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
