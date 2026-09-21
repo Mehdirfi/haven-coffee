@@ -32,6 +32,9 @@
     --color-green-dark: #064606;
     --color-black: #000000;
     --color-white: #ffffff;
+    --color-about-hero: #4C5648;
+    --color-story: #97887A;
+    --color-digits: #51c6c6c3;
     --font-primary: Vazirmatn, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-logo: 'Parastoo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

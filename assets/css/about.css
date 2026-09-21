@@ -5,17 +5,17 @@
 }
 .about-haven
 {
-    background-color: #4C5648;
+    background-color: var(--color-about-hero);
     color: var(--color-white);
-    height: 300px;
+    height: 18.75rem;
     padding: 2rem;
 }
 
 /* story */
 .story-haven
 {
-    background-color: #97887A;
-    color: var(--color-white);
+    background-color: var(--color-warm);
+    color: var(--color-text-dark);
     height: auto;
     padding: 2rem;
 }
@@ -35,8 +35,8 @@
 }
 .story-img-1 img
 {
-    width: 300px;
-    height: 300px;
+    width: 18.75rem;
+    height: 18.75rem;
     border-radius: 10%;
     margin-top: 1.2rem;
 }
@@ -62,8 +62,8 @@
 {
     margin-left: 3.5rem;
     margin-top: 2rem;
-    width: 350px;
-    height: 350px;
+    width: 21.875rem;
+    height: 21.875rem;
     border-radius: 10%;
 }
 .story-caption-3
@@ -76,17 +76,18 @@
 /* digits and invitation */
 .digits
 {
-    background-color: #51c6c6c3;
+    background-color: var(--color-story);
     height: auto;
     padding: 2rem;
+    color: var(--color-secondary);
     
 }
 .digits-cards article
 {
     margin-top: 2rem;
     background-color: var(--color-white);
-    width: 250px;
-    height: 250px;
+    width: 15.625rem;
+    height: 15.625rem;
     border-radius: 50%; 
     display: flex;
     flex-direction: column;
@@ -121,4 +122,124 @@
     margin-bottom: 3.5rem;
     font-size: 1.5rem;
     font-weight: bold;
+}
+
+/* responsive */
+@media (max-width: 1024px)
+{
+    .about-haven
+    {
+        height: auto;
+        padding: 2rem 1.5rem;
+    }
+    .story-haven
+    {
+        padding: 2rem 1.5rem;
+    }
+    .story-1-1
+    {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    .story-caption-1
+    {
+        margin-left: 0;
+    }
+    .story-img-1 img,
+    .story-img-2 img
+    {
+        width: 100%;
+        max-width: 21.875rem;
+        height: auto;
+        margin-left: 0;
+    }
+    .story-img-1 > img
+    {
+        margin-left: 0;
+    }
+    .story-img-2 img
+    {
+        margin-left: 0;
+    }
+    .digits-cards
+    {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .digits-cards article
+    {
+        width: 13rem;
+        height: 13rem;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .about-haven
+    {
+        padding: 2rem 1rem;
+    }
+    .story-haven
+    {
+        padding: 2rem 1rem;
+    }
+    .story-caption-1,
+    .story-caption-2,
+    .story-caption-3
+    {
+        line-height: 1.8;
+        font-size: 1rem;
+    }
+    .story-img-1 img,
+    .story-img-2 img
+    {
+        max-width: 100%;
+    }
+    .story-img-1 > img
+    {
+        margin-left: 0;
+    }
+    .story-img-2 img
+    {
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+    .story-img-2 .flex-center-row
+    {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .digits-cards
+    {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .digits-cards article
+    {
+        width: 13rem;
+        height: 13rem;
+    }
+    .digit-number
+    {
+        font-size: 2rem;
+    }
+    .digit-text
+    {
+        font-size: 0.9rem;
+    }
+    .invite
+    {
+        font-size: 1.2rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .about-haven h1
+    {
+        font-size: 2rem;
+    }
+    .story-haven h2,
+    .digits h2
+    {
+        font-size: 1.6rem;
+    }
 }

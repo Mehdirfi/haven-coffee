@@ -414,7 +414,7 @@ video
         background-color: var(--color-white);
         padding: 1rem;
         border-radius: 0;
-        gap: 0.1rem;
+        gap: 1rem;
         margin-top: 1.5rem;
     }
     .image-col
