@@ -81,7 +81,7 @@
     padding: 2rem;
     
 }
-.digits div
+.digits-cards article
 {
     margin-top: 2rem;
     background-color: var(--color-white);
@@ -108,7 +108,7 @@
     padding: 0.5rem;
     color: var(--color-secondary);
 }
-.digits article
+.digits-cards
 {
     display: flex;
     justify-content: center;
