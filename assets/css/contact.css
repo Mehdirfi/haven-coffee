@@ -1,0 +1,98 @@
+/* contact-title */
+.contact-haven-title
+{
+    background-color: var(--color-contact-hero);
+    color: white;
+    height: 16rem;
+    padding: 2rem;
+}
+.contact-haven-title h1, .contact-haven-title p
+{
+    text-align: center;
+}
+.contact-haven-title p
+{
+    margin-top: 1rem;
+}
+
+/* contact-content */
+.contact-haven-content
+{
+    background-color: var(--color-contact-content);
+    color: white;
+    padding: 2rem;
+}
+.contact-haven-content h2
+{
+    text-align: center;
+}
+.contact-haven-content article
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "address address"
+    "phone mail"
+    "time time";
+    gap: 1px;
+    background-color: rgba(255, 255, 255, 0.2);
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.contact-haven-content article > div
+{
+    background-color: var(--color-contact-content);
+    padding: 1.5rem;
+    text-align: center;
+}
+.contact-address
+{
+    grid-area: address;
+}
+.contact-phone
+{
+    grid-area: phone;
+}
+.contact-mail
+{
+    grid-area: mail;
+}
+.works-time
+{
+    grid-area: time;
+}
+
+/* contact-map */
+.contact-haven-map
+{
+    background-color: var(--color-contact-map);
+    padding: 2rem;
+    color: var(--color-text-dark)
+}
+.contact-haven-map h2, .contact-haven-map p
+{
+    text-align: center;
+}
+.map-flex
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.haven-map
+{
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+}
+.contact-haven-map p
+{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

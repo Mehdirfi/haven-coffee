@@ -76,10 +76,10 @@
 /* digits and invitation */
 .digits
 {
-    background-color: var(--color-story);
+    background-color: var(--color-digits);
     height: auto;
     padding: 2rem;
-    color: var(--color-secondary);
+    color: var(--color-primary);
     
 }
 .digits-cards article
