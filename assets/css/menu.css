@@ -183,6 +183,35 @@ video
     height: 31.25rem;
 }
 
+/* menu-price */
+.menu-category li
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.menu-item-name
+{
+    flex: 1;
+}
+.menu-price
+{
+    flex-shrink: 0;
+    background-color: var(--color-link);
+    color: var(--color-text-light);
+    padding: 0.3rem 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 0.85rem;
+    line-height: 1.2;
+    font-weight: 500;
+}
+.breakfast
+{
+    margin-left: 6rem;
+}
 
 /* responsive */
 @media (max-width: 1024px)
@@ -275,6 +304,10 @@ video
         width: 100%;
         max-width: 100%;
         height: auto;
+    }
+    .breakfast
+    {
+        margin-left: 0;
     }
 }
 
@@ -435,6 +468,11 @@ video
         height: auto;
         min-height: 25rem;
         padding: 7rem 1rem;
+    }
+     .menu-price
+    {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.6rem;
     }
 }
 
