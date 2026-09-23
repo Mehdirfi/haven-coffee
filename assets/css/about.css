@@ -187,13 +187,23 @@
     .story-caption-2,
     .story-caption-3
     {
-        line-height: 1.8;
+        line-height: 1.9;
         font-size: 1rem;
+        text-align: center;
+        padding: 0 0.5rem;
+    }
+    .story-caption-3
+    {
+        margin-top: 1.5rem;
     }
     .story-img-1 img,
     .story-img-2 img
     {
         max-width: 100%;
+    }
+    .story-img-2
+    {
+        margin-top: 2rem;
     }
     .story-img-1 > img
     {

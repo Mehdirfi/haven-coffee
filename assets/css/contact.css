@@ -96,3 +96,83 @@
     font-size: 1.5rem;
     font-weight: bold;
 }
+
+/* responsive */
+@media (max-width: 1024px)
+{
+    .contact-haven-title
+    {
+        height: auto;
+        padding: 2rem 1.5rem;
+    }
+    .contact-haven-content
+    {
+        padding: 2rem 1.5rem;
+    }
+    .contact-haven-content article
+    {
+        max-width: 100%;
+    }
+    .contact-haven-map
+    {
+        padding: 2rem 1.5rem;
+    }
+    .haven-map
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px)
+{
+    .contact-haven-title
+    {
+        padding: 2rem 1rem;
+    }
+    .contact-haven-title h1
+    {
+        font-size: 2rem;
+    }
+    .contact-haven-title p
+    {
+        font-size: 1rem;
+    }
+    .contact-haven-content
+    {
+        padding: 2rem 1rem;
+    }
+    .contact-haven-content h2
+    {
+        font-size: 1.6rem;
+    }
+    .contact-haven-content article
+    {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "address"
+            "phone"
+            "mail"
+            "time";
+    }
+    .contact-haven-content article > div
+    {
+        padding: 1.2rem;
+    }
+    .contact-haven-map
+    {
+        padding: 2rem 1rem;
+    }
+    .contact-haven-map h2
+    {
+        font-size: 1.6rem;
+    }
+    .contact-haven-map p
+    {
+        font-size: 1.2rem;
+    }
+    .haven-map
+    {
+        width: 100%;
+        height: 300px;
+    }
+}
