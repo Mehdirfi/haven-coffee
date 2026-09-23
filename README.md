@@ -2,6 +2,8 @@
 
 A static coffee shop website built with pure HTML & CSS. Fully responsive, no frameworks or extra tools — just the basics to practice core front-end skills and learn Git workflow properly.
 
+**Live Demo:** [https://mehdirfi.github.io/haven-coffee/](https://mehdirfi.github.io/haven-coffee/)
+
 ## Technologies - تکنولوژی ها
 
 - HTML5 (Semantic)
@@ -41,6 +43,17 @@ haven-coffee/
 ## How to Run - نحوه اجرا
 
 Just open `homepage.html` in your browser. No build step or server needed.
+
+## Screenshots
+
+### Homepage
+![Homepage](screenshots/index.png)
+### Menu
+![Menu](screenshots/menu.png)
+### About
+![About](screenshots/about.png)
+### Contact
+![Contact](screenshots/contact.png)
 
 ## Design - طراحی
 
