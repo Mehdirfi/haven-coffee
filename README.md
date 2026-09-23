@@ -28,6 +28,11 @@ haven-coffee/
 ├── about.html
 ├── contact.html
 ├── README.md
+├── screenshots/
+│   ├── index.png
+│   ├── menu.png
+│   ├── about.png
+│   └── contact.png
 └── assets/
     ├── css/
     │   ├── base.css
@@ -42,7 +47,7 @@ haven-coffee/
 
 ## How to Run - نحوه اجرا
 
-Just open `homepage.html` in your browser. No build step or server needed.
+Visit the [Live Demo](https://mehdirfi.github.io/haven-coffee/) or open `index.html` locally in your browser.
 
 ## Screenshots
 
